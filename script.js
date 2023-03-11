@@ -84,10 +84,10 @@ for (let i = 0; i<emp.length; i++) {
     btn.onclick = ()=>{
         let emp=JSON.parse(localStorage.getItem(btn.id.toLocaleLowerCase()));
         document.getElementById("modal-name").innerText=emp.name;
-        document.getElementById("modal-jobid").innerText="Job Id: "+emp.jobId;
-        document.getElementById("modal-dept").innerText="Departmrnt: "+emp.department;
-        document.getElementById("modal-salary").innerText="Salary: "+emp.salary;
-        document.getElementById("modal-biojoke").innerText="Bio Joke: "+emp.bioJoke;
+        document.getElementById("modal-jobid").innerText=emp.jobId;
+        document.getElementById("modal-dept").innerText=emp.department;
+        document.getElementById("modal-salary").innerText=emp.salary;
+        document.getElementById("modal-biojoke").innerText=emp.bioJoke;
         document.getElementById("empModal").style.display="block";
     }
     buttonCell.appendChild(btn);
@@ -113,9 +113,3 @@ document.getElementById("back1").addEventListener("click",()=>{
 document.getElementById("back2").addEventListener("click",()=>{
     location.reload();
 });
-
-
-
-
-
-
