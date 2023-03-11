@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
 body {
     background-color: #f8f9fa;
     margin-top: 50px;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 .form-container {
@@ -29,6 +31,12 @@ body {
     float: right;
 }
 
+h6,.modal-title{
+    color: rgba(43, 40, 40, 0.925);
+}
+#modal-jobid,#modal-salary,#modal-dept,#modal-biojoke{
+    color: black;
+}
 #back1{
     left: 20%vw;
 }
